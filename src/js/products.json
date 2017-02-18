@@ -1,0 +1,37 @@
+var products = [
+    {
+        "id": "1",
+        "name": "Googlle pixel",
+        "price": 1
+    },
+    {
+        "id": "2",
+        "name": "Motorolo",
+        "price": 2
+    },
+    {
+        "id": "3",
+        "name": "HTC",
+        "price": 3
+    },
+    {
+        "id": "4",
+        "name": "Samsung",
+        "price": 4
+    },
+    {
+        "id": "5",
+        "name": "LG",
+        "price": 5
+    },
+    {
+        "id": "6",
+        "name": "LG",
+        "price": 5
+    },
+    {
+        "id": "7",
+        "name": "LG",
+        "price": 5
+    }
+]

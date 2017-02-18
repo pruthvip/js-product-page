@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product page</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/app.css">
+</head>
+<body>
+<script src="./src/js/products.json"></script>
+
+<div id="app">
+    <div class="product-page">
+
+        <div class="product-page__input">
+            <input id="js-product-input" class="product-page__search" name="product" />
+        </div>
+
+        <div id="js-search-results-container" class="product-page__search__results hide">
+            <h2 class="">You search results</h2>
+
+            <div id="js-product-search-list" class="product-page__search__list display-t">
+            </div>
+
+        </div>
+
+        <div id="js-product-list" class="product-page__list display-t ">
+        </div>
+
+        <div class="product-page__action">
+            <button id="js-get-results" class="action"> Get results</button>
+        </div>
+    </div>
+
+
+</div>
+<script src="./src/js/app.js"></script>
+</body>
+</html>
